@@ -6,3 +6,20 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 The staging area does not contain physical files. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add each logical change to the staging area and verify the change then commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Try out other methods. Refactor code. Complex debugging. Can always go back to a known state.
+Can continue to debug or improve a known state.
+
+How do the diagrams help you visualize the branch structure?
+Show isolated commits. See how later branches relate. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the chenges made in both branches are combined. The two branches have merged into one as shown in the diagram.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually? 
+Pro: eliminates the tedious process of comparing files. Con: ay make mistakes by accepting a remove that
+someone's addition depends on.
